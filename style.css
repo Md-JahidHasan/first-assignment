@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.first-section{
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-image: url(images/girl.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: azure;
+}
+.second-section{
+    text-align: center;
+}
+.third-section{
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.third-section-child{
+   
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    width: 60%;
+    
+}
+.fourth-section{
+    margin-top: 60px;
+    text-align: center;
+}
+.fifth-section{
+    display: flex;
+    justify-content: center;
+}
+.fifth-section p{
+    font-size: x-small;
+}
+.fifth-section-child{
+    margin-top: 60px;
+    display: flex;
+    width: 80%;
+}
+.fifth-section-card{
+    background-color: aqua;
+    margin:10px;
+    padding: 15px;
+}
+.sixth-section-cards {
+    width: 100%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   
+
+}
+.sixth-section-card{
+    width: 24%;
+    padding-top: 8px;
+    margin: 4px;
+    text-align: center;
+    background-color: darkgray;
+    box-shadow: 120x 10px 20px gray;
+}
+.sixth-section-card h5{
+    margin-top: 0;
+}
+.sixth-section-card img{
+    width: 90%;
+    height: 150px;
+    border-radius: 10PX;
+}
+.seventh-section{
+    text-align: center;
+}
+.eighth-section{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.eighth-section-child{
+    text-align: center;
+    width: 70%;
+    height: 60px;
+    /* margin: auto; */
+    background-color: coral;
+    align-content: center;
+    display: inline;
+    align-items: center;
+    padding-top: 40px;
+}
